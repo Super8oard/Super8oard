@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		144548112B54CE9F00C10D76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144548102B54CE9F00C10D76 /* AppDelegate.swift */; };
 		144548132B54CE9F00C10D76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144548122B54CE9F00C10D76 /* SceneDelegate.swift */; };
-		144548152B54CE9F00C10D76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144548142B54CE9F00C10D76 /* ViewController.swift */; };
-		144548182B54CE9F00C10D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144548162B54CE9F00C10D76 /* Main.storyboard */; };
 		1445481A2B54CEA100C10D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144548192B54CEA100C10D76 /* Assets.xcassets */; };
 		1445481D2B54CEA100C10D76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1445481B2B54CEA100C10D76 /* LaunchScreen.storyboard */; };
-		E02480F92B550A050089073E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02480F82B550A050089073E /* User.swift */; };
+		144548252B55291000C10D76 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144548242B55291000C10D76 /* MapViewController.swift */; };
+		40C7507A45FE92B214BA4BFC /* Pods_Super8oard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5590D005CC14C511FC00DA4 /* Pods_Super8oard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0182C204EA237E9A501F6A5F /* Pods-Super8oard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super8oard.debug.xcconfig"; path = "Target Support Files/Pods-Super8oard/Pods-Super8oard.debug.xcconfig"; sourceTree = "<group>"; };
 		1445480D2B54CE9F00C10D76 /* Super8oard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Super8oard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		144548102B54CE9F00C10D76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		144548122B54CE9F00C10D76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		144548142B54CE9F00C10D76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		144548172B54CE9F00C10D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		144548192B54CEA100C10D76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1445481C2B54CEA100C10D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1445481E2B54CEA100C10D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E02480F82B550A050089073E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		144548242B55291000C10D76 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D5590D005CC14C511FC00DA4 /* Pods_Super8oard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Super8oard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5FC08711EC9691B849AC85 /* Pods-Super8oard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super8oard.release.xcconfig"; path = "Target Support Files/Pods-Super8oard/Pods-Super8oard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C7507A45FE92B214BA4BFC /* Pods_Super8oard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +45,8 @@
 			children = (
 				1445480F2B54CE9F00C10D76 /* Super8oard */,
 				1445480E2B54CE9F00C10D76 /* Products */,
+				6EA66CA9DB97EF92322A4F0E /* Pods */,
+				852CD08F940B18DDBCEBE839 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,8 +64,7 @@
 				E02480F72B5509F10089073E /* Models */,
 				144548102B54CE9F00C10D76 /* AppDelegate.swift */,
 				144548122B54CE9F00C10D76 /* SceneDelegate.swift */,
-				144548142B54CE9F00C10D76 /* ViewController.swift */,
-				144548162B54CE9F00C10D76 /* Main.storyboard */,
+				144548242B55291000C10D76 /* MapViewController.swift */,
 				144548192B54CEA100C10D76 /* Assets.xcassets */,
 				1445481B2B54CEA100C10D76 /* LaunchScreen.storyboard */,
 				1445481E2B54CEA100C10D76 /* Info.plist */,
@@ -70,12 +72,21 @@
 			path = Super8oard;
 			sourceTree = "<group>";
 		};
-		E02480F72B5509F10089073E /* Models */ = {
+		6EA66CA9DB97EF92322A4F0E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E02480F82B550A050089073E /* User.swift */,
+				0182C204EA237E9A501F6A5F /* Pods-Super8oard.debug.xcconfig */,
+				DC5FC08711EC9691B849AC85 /* Pods-Super8oard.release.xcconfig */,
 			);
-			path = Models;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		852CD08F940B18DDBCEBE839 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5590D005CC14C511FC00DA4 /* Pods_Super8oard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 144548212B54CEA100C10D76 /* Build configuration list for PBXNativeTarget "Super8oard" */;
 			buildPhases = (
+				DC871F84EC0294A76DFD9EC6 /* [CP] Check Pods Manifest.lock */,
 				144548092B54CE9F00C10D76 /* Sources */,
 				1445480A2B54CE9F00C10D76 /* Frameworks */,
 				1445480B2B54CE9F00C10D76 /* Resources */,
+				916F393D8DBD935725BF2D13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,11 +151,52 @@
 			files = (
 				1445481D2B54CEA100C10D76 /* LaunchScreen.storyboard in Resources */,
 				1445481A2B54CEA100C10D76 /* Assets.xcassets in Resources */,
-				144548182B54CE9F00C10D76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		916F393D8DBD935725BF2D13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Super8oard/Pods-Super8oard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Super8oard/Pods-Super8oard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Super8oard/Pods-Super8oard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC871F84EC0294A76DFD9EC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Super8oard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		144548092B54CE9F00C10D76 /* Sources */ = {
@@ -153,20 +207,13 @@
 				144548152B54CE9F00C10D76 /* ViewController.swift in Sources */,
 				144548112B54CE9F00C10D76 /* AppDelegate.swift in Sources */,
 				144548132B54CE9F00C10D76 /* SceneDelegate.swift in Sources */,
+				144548252B55291000C10D76 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		144548162B54CE9F00C10D76 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				144548172B54CE9F00C10D76 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1445481B2B54CEA100C10D76 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -215,7 +262,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -278,7 +325,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -299,6 +346,7 @@
 		};
 		144548222B54CEA100C10D76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0182C204EA237E9A501F6A5F /* Pods-Super8oard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,7 +356,6 @@
 				INFOPLIST_FILE = Super8oard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,6 +373,7 @@
 		};
 		144548232B54CEA100C10D76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5FC08711EC9691B849AC85 /* Pods-Super8oard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -335,7 +383,6 @@
 				INFOPLIST_FILE = Super8oard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

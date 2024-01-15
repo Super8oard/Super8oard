@@ -58,7 +58,7 @@
 		1445480F2B54CE9F00C10D76 /* Super8oard */ = {
 			isa = PBXGroup;
 			children = (
-				6C168A4D2B550AAB00C42214 /* Model */,
+				6C168A4D2B550AAB00C42214 /* Models */,
 				144548102B54CE9F00C10D76 /* AppDelegate.swift */,
 				144548122B54CE9F00C10D76 /* SceneDelegate.swift */,
 				144548142B54CE9F00C10D76 /* ViewController.swift */,
@@ -70,12 +70,12 @@
 			path = Super8oard;
 			sourceTree = "<group>";
 		};
-		6C168A4D2B550AAB00C42214 /* Model */ = {
+		6C168A4D2B550AAB00C42214 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				6C168A4B2B550AA200C42214 /* Board.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

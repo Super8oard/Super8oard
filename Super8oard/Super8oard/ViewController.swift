@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let aaa = NMGLatLng(lat: )
     
     override func viewDidLoad() {
         super.viewDidLoad()

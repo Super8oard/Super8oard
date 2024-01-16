@@ -13,6 +13,9 @@
 		144548182B54CE9F00C10D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144548162B54CE9F00C10D76 /* Main.storyboard */; };
 		1445481A2B54CEA100C10D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144548192B54CEA100C10D76 /* Assets.xcassets */; };
 		1445481D2B54CEA100C10D76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1445481B2B54CEA100C10D76 /* LaunchScreen.storyboard */; };
+		BA39BCE42B55147200D8EB16 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA39BCE32B55147200D8EB16 /* LoginStoryboard.storyboard */; };
+		BA39BCE82B55749C00D8EB16 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39BCE72B55749C00D8EB16 /* LoginViewController.swift */; };
+		BA39BCEA2B5577AE00D8EB16 /* CreatAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39BCE92B5577AE00D8EB16 /* CreatAccountViewController.swift */; };
 		E02480F92B550A050089073E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02480F82B550A050089073E /* User.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		144548192B54CEA100C10D76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1445481C2B54CEA100C10D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1445481E2B54CEA100C10D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA39BCE32B55147200D8EB16 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		BA39BCE72B55749C00D8EB16 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BA39BCE92B5577AE00D8EB16 /* CreatAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatAccountViewController.swift; sourceTree = "<group>"; };
 		E02480F82B550A050089073E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,12 +68,23 @@
 				144548102B54CE9F00C10D76 /* AppDelegate.swift */,
 				144548122B54CE9F00C10D76 /* SceneDelegate.swift */,
 				144548142B54CE9F00C10D76 /* ViewController.swift */,
+				BA39BCE22B55130E00D8EB16 /* SignInUp */,
 				144548162B54CE9F00C10D76 /* Main.storyboard */,
 				144548192B54CEA100C10D76 /* Assets.xcassets */,
 				1445481B2B54CEA100C10D76 /* LaunchScreen.storyboard */,
 				1445481E2B54CEA100C10D76 /* Info.plist */,
 			);
 			path = Super8oard;
+			sourceTree = "<group>";
+		};
+		BA39BCE22B55130E00D8EB16 /* SignInUp */ = {
+			isa = PBXGroup;
+			children = (
+				BA39BCE32B55147200D8EB16 /* LoginStoryboard.storyboard */,
+				BA39BCE72B55749C00D8EB16 /* LoginViewController.swift */,
+				BA39BCE92B5577AE00D8EB16 /* CreatAccountViewController.swift */,
+			);
+			path = SignInUp;
 			sourceTree = "<group>";
 		};
 		E02480F72B5509F10089073E /* Models */ = {
@@ -138,6 +155,7 @@
 			files = (
 				1445481D2B54CEA100C10D76 /* LaunchScreen.storyboard in Resources */,
 				1445481A2B54CEA100C10D76 /* Assets.xcassets in Resources */,
+				BA39BCE42B55147200D8EB16 /* LoginStoryboard.storyboard in Resources */,
 				144548182B54CE9F00C10D76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA39BCE82B55749C00D8EB16 /* LoginViewController.swift in Sources */,
 				E02480F92B550A050089073E /* User.swift in Sources */,
+				BA39BCEA2B5577AE00D8EB16 /* CreatAccountViewController.swift in Sources */,
 				144548152B54CE9F00C10D76 /* ViewController.swift in Sources */,
 				144548112B54CE9F00C10D76 /* AppDelegate.swift in Sources */,
 				144548132B54CE9F00C10D76 /* SceneDelegate.swift in Sources */,

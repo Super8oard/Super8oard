@@ -129,7 +129,7 @@
         <!--Navigation Controller-->
         <scene sceneID="2Gn-RB-WBW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K6C-HG-Kns" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNaviViewController" automaticallyAdjustsScrollViewInsets="NO" id="K6C-HG-Kns" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gPW-Za-mLp">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
